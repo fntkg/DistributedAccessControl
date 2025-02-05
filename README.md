@@ -1,5 +1,5 @@
 # DistributedAccessControl
-A distributed synchronization system implementing the Readers-Writers problem using the Ricart-Agrawala algorithm in Elixir. Designed to ensure efficient and scalable mutual exclusion without a central coordinator.
+A distributed synchronization system implementing the [Readers-Writers problem](https://en.wikipedia.org/wiki/Readers%E2%80%93writers_problem) using the [Ricart-Agrawala algorithm](https://en.wikipedia.org/wiki/Ricart%E2%80%93Agrawala_algorithm) in Elixir. Designed to ensure efficient and scalable mutual exclusion without a central coordinator.
 
 ## Overview
 This project implements a distributed synchronization system for managing concurrent access to a shared resource, specifically addressing the **Readers-Writers** problem. The solution leverages the **Ricart-Agrawala** algorithm, extended to support multiple operation types, ensuring a fair and efficient execution without a central coordinator.
